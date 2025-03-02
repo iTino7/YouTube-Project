@@ -1,0 +1,38 @@
+.containerContent {
+  margin-left: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imgContent {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.imgContent img {
+  width: 500px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.imgContent h4 {
+  max-width: 450px;
+}
+
+.imgContent p {
+  margin-top: 4px;
+  color: gray;
+  font-size: 12px;
+}
+
+.imgContent span {
+  background-color: gray;
+  color: #fff;
+  margin-left: 5px;
+  padding: 2px 2px 0 2px;
+  border-radius: 50%;
+}

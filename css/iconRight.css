@@ -1,0 +1,27 @@
+.topBarIcon {
+  display: flex;
+}
+
+.containerTopBar {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin: 0 20px;
+}
+
+.containerTopBar .icon {
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 28px;
+  padding: 6px 16px 6px 6px;
+}
+
+.iconAdd {
+  background-color: hsla(0, 0%, 100%, 0.08);
+  border-radius: 20px;
+}
+
+.iconAdd p {
+  margin-left: 4px;
+  font-size: 14px;
+}

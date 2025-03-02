@@ -1,0 +1,21 @@
+.containerGenre {
+  display: flex;
+  margin: 10px 0;
+}
+
+.genre:nth-child(1) {
+  color: black;
+  background-color: #fff;
+}
+
+.genre {
+  margin-left: 14px;
+  background-color: hsla(0, 0%, 100%, 0.08);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.genre p {
+  font-size: 14px;
+  font-weight: 500;
+}
